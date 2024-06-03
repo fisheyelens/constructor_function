@@ -15,8 +15,18 @@ function workOne(a,b){
 // 객체의 키 이름과 값 리터럴이 되었으면 좋겠다.
 
 // hint : 객체 할당 검사 / 매개 변수 두 개 묶어버리기
-// // * 이것 많이 쓸 패턴
-// let localVariable = {
+// * 이것 많이 쓸 패턴
+
+
+
+let localVariable = {};
+
+localVariable[a]=a;
+localVariable[b]=b;
+
+return localVariable;
+
+// * 여기서부터 
 
 //   a:b
 
@@ -29,4 +39,10 @@ function workOne(a,b){
 // return localVariable;
 
 // console.log(localVariable(1,2));
+
+// * 여기까지는 내가 해본것...
+
 }
+
+let test = workOne("w","J");
+console.log(test);
