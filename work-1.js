@@ -44,5 +44,12 @@ return localVariable;
 
 }
 
-let test = workOne("w","J");
+// let test = workOne("W","J");
+// * 이것은 왜 { w: 'w', J: 'J' } 이렇게 나왔지?? 왜 키 값은 문자열 표시가 안나오지?
+
+let test = workOne("백지원","Alice");
 console.log(test);
+
+// * 이것도 { '백지원': '백지원', Alice: 'Alice' }  왜 Alice 만 '' 표시가 없지???
+
+// * 결과적으로 객체를 만들어주는 함수 
