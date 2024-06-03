@@ -37,3 +37,6 @@ for(let i = 0; i < names.length; i++) {
 }
 
 console.log(arrayMembers);
+
+
+// 망할놈의 module.exports!!!!!!!!!!!!!!!!!!
