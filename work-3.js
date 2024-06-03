@@ -1,6 +1,9 @@
 function workThree(a,b){
-  let local = {}
-  local[a]=a;
-  local[b]=b;
-  return local;
+  return {
+    a:a,
+    b:b
 };
+};
+
+let test = workThree("구하림","유으뜸");
+console.log(test);
