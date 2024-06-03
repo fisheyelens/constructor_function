@@ -23,5 +23,7 @@ function workThree(index, name) {
   return local;
 }
 
-let test = workThree(0, "구하림");
-console.log(test);
+// let test = workThree(0, "구하림");
+// console.log(test);
+
+module.exports= workThree;
