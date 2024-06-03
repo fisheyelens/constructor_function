@@ -35,3 +35,5 @@ for(let i = 0; i < names.length; i++) {
   let member = makeMember(i, names[i])
   arrayMembers.push(member);
 }
+
+console.log(arrayMembers);
