@@ -4,3 +4,7 @@
 //  ! forEach() 써보기
 let a = [];
 let b = ["피카츄","라이츄"];
+
+b.forEach((element)=> {
+  a.push(element);
+})
