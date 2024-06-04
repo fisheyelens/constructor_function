@@ -30,7 +30,7 @@ console.log(testSecondAdd);
 
 
 
-
+// * 핵심!~
 // * 생성자 함수 방식
 class Third {
   constructor(a, b) {
@@ -45,3 +45,4 @@ class Third {
 let testThird = new Third(1,2);
 let testThirdAdd = testThird.add();
 console.log(testThirdAdd);
+// * console.dir 도 해보기
